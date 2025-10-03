@@ -30,7 +30,7 @@ The `create_task.py` script sends a POST request to the `/v1/tasks` endpoint of 
         ```bash
         cp .env.example .env
         ```
-    -   Open the `.env` file and replace `"your_actual_api_key_here"` with your real Manus API key.
+    -   Open the `.env` file and replace the text inside the quotes (`"your_actual_api_key_here"`) with your real Manus API key, keeping the quotes.
         ```
         MANUS_API_KEY="your_actual_api_key_here"
         ```
